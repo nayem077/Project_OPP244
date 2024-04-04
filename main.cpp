@@ -49,5 +49,9 @@ int main() {
     snake.makeSound();
     std::cout << std::endl;
 
+    Bird baldEagle("Baldy", 5, 'M', true);
+    baldEagle.eat();
+    baldEagle.makeSound();
+    std::cout << std::endl;
     return 0;
 }
